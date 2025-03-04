@@ -171,7 +171,7 @@ function UpdatePlayer(data) {
 	// document.getElementById("progressBar").style.width = `${progressPerc}%`;
 	// document.getElementById("progressTime").innerHTML = progressTime;
 	// document.getElementById("timeRemaining").innerHTML = `-${timeRemaining}`;
-	document.getElementById("backgroundImage").style.clipPath = `inset(0 ${100 - progress}% 0 0)`;
+	document.getElementById("backgroundImage").style.clipPath = `inset(0 ${100 - progressPerc}% 0 0)`;
 
 	setTimeout(() => {
 		// document.getElementById("albumArtBack").src = albumArt;
