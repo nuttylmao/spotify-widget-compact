@@ -98,7 +98,7 @@ async function GetCurrentlyPlaying(refreshInterval) {
 		// Try again in 2 seconds
 		setTimeout(() => {
 			GetCurrentlyPlaying()
-		}, 500);
+		}, 2000);
 	}
 }
 
